@@ -1,0 +1,149 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* navbar */
+.navbar{
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar-brand{
+    font-family:"ubuntu";
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0 18px 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+/* title */
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+.big-head{
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
+
+/* title image */
+.dwnld-btn{
+    margin: 5% 3% 5% 0;
+}
+
+.t-img{
+    width: 22%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+@media (max-width: 1028px) {
+    .t-img{
+        width: 50%;
+        position: static;
+        transform: rotate(0deg);
+    }
+    #title{
+        
+        text-align: center;
+    }
+}
+/* Feature */
+
+.f-para{
+    color: #8f8f8f;
+    
+}
+.f-icon{
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+.f-icon:hover{
+    color: #ff4c68;
+}
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+   
+}
+.f-box{
+    text-align: center;
+    padding: 5%;
+}
+/* testimonials */
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.test-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.p-logo{
+    width:15%;
+    margin: 20px 20px 50px 20px;
+}
+/* pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.p-table{
+    padding: 3% 2% 3% 2%;
+}
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;;
+    color: white;
+    padding: 7% 15%;
+}
+
+.cta-head{
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
+#footer{
+    text-align: center;
+    padding: 3% 15%;
+}
+.foot-para{
+    color: #8f8f8f;
+}
+.footer-icon{
+    margin: 1%;
+}
